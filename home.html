@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>الرئسية</title>
+  <link rel="shortcut icon" type="image/png" href="dra3.png" sizes="100x100">
+  <link rel="stylesheet" href="home.css" type="text/css">
+  <link rel="stylesheet" href="bootstrap.min.css" type="text/css">
+  <meta content='maximum-scale=1.0, initial-scale=1.0, width=device-width' name='viewport'>
+
+</head>
+
+<body style="background-color:#0d0d0d; ">
+  <!-- navigation bar start here -->
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top" style="justify-content: space-between;">
+    <!-- Brand/logo -->
+    <a class="navbar-brand" style="color:white">العفاريت</a>
+    <img src="dra3.png" alt="العفاريت" width=70px>
+    <!-- Links -->
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">التاريخ</a>
+      </li>
+    </ul>
+  </nav>
+  <!-- navigation bar end here -->
+
+  <!-- grid view start here -->
+  <form method="post">
+  <div class="container">
+    <div class="row mt">
+      <div class="col-md-3">
+        <div class="card profile-card-1" style="height:200px;display:grid">
+          <h4 style="text-align:center">جهاز رقم 1</h4>
+          <h2 id="stopwatch1" style="text-align:center;direction: initial;">
+            00:00:00
+          </h2>
+          <div class="card-content" style="clear:left;text-align:center">
+            <button onclick="startTimer('1')" type="button" class="btn mokh-btn-outline">بدء</button>
+            <button onclick="resetTimer('1')" type="button" class="btn mokh-btn-outline">انهاء</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card profile-card-1" style="height:200px;display:grid">
+          <h4 style="text-align:center">جهاز رقم 2</h4>
+          <h2 id="stopwatch2" style="text-align:center;direction: initial;">
+            00:00:00
+          </h2>
+          <div class="card-content" style="clear:left;text-align:center">
+            <button onclick="startTimer('2')" type="button" class="btn mokh-btn-outline">بدء</button>
+            <button onclick="resetTimer('2')" type="button" class="btn mokh-btn-outline">انهاء</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card profile-card-1" style="height:200px;display:grid">
+          <h4 style="text-align:center">جهاز رقم 3</h4>
+          <h2 id="stopwatch3" style="text-align:center;direction: initial;">
+            00:00:00
+          </h2>
+          <div class="card-content" style="clear:left;text-align:center">
+            <button onclick="startTimer('3')" type="button" class="btn mokh-btn-outline">بدء</button>
+            <button onclick="resetTimer('3')" type="button" class="btn mokh-btn-outline">انهاء</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card profile-card-1" style="height:200px;display:grid">
+          <h4 style="text-align:center">جهاز رقم 4</h4>
+          <h2 id="stopwatch4" style="text-align:center;direction: initial;">
+            00:00:00
+          </h2>
+          <div class="card-content" style="clear:left;text-align:center">
+            <button onclick="startTimer('4')" type="button" class="btn mokh-btn-outline">بدء</button>
+            <button onclick="resetTimer('4')" type="button" class="btn mokh-btn-outline">انهاء</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-3">
+        <div class="card profile-card-1" style="height:200px;display:grid">
+          <h4 style="text-align:center">جهاز رقم 5</h4>
+          <h2 id="stopwatch5" style="text-align:center;direction: initial;">
+            00:00:00
+          </h2>
+          <div class="card-content" style="clear:left;text-align:center">
+            <button onclick="startTimer('5')" type="button" class="btn mokh-btn-outline">بدء</button>
+            <button onclick="resetTimer('5')" type="button" class="btn mokh-btn-outline">انهاء</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card profile-card-1" style="height:200px;display:grid">
+          <h4 style="text-align:center">جهاز رقم 6</h4>
+          <h2 id="stopwatch6" style="text-align:center;direction: initial;">
+            00:00:00
+          </h2>
+          <div class="card-content" style="clear:left;text-align:center">
+            <button onclick="startTimer('6')" type="button" class="btn mokh-btn-outline">بدء</button>
+            <button onclick="resetTimer('6')" type="button" class="btn mokh-btn-outline">انهاء</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card profile-card-1" style="height:200px;display:grid">
+          <h4 style="text-align:center">جهاز رقم 7</h4>
+          <h2 id="stopwatch7" style="text-align:center;direction: initial;">
+            00:00:00
+          </h2>
+          <div class="card-content" style="clear:left;text-align:center">
+            <button onclick="startTimer('7')" type="button" class="btn mokh-btn-outline">بدء</button>
+            <button onclick="resetTimer('7')" type="button" class="btn mokh-btn-outline">انهاء</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card profile-card-1" style="height:200px;display:grid">
+          <h4 style="text-align:center">جهاز رقم 8</h4>
+          <h2 id="stopwatch8" style="text-align:center;direction: initial;">
+            00:00:00
+          </h2>
+          <div class="card-content" style="clear:left;text-align:center">
+            <button onclick="startTimer('8')" type="button" class="btn mokh-btn-outline">بدء</button>
+            <button onclick="resetTimer('8')" type="button" class="btn mokh-btn-outline"  name="reset" value="reset">انهاء</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</form>
+<?php
+  if(isset($_POST['reset'])|| empty($_POST['InsertMe'])) {
+    echo "This is Button1 that is selected";
+  }else{
+    echo "This is Button2";
+  }
+?>
+  <!-- grid view end here -->
+  <script src="bootstrap.min.js"></script>
+  <script src="home.js"></script>
+</body>
+
+</html>
